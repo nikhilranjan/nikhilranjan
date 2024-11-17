@@ -6,15 +6,38 @@
     <title>About Me</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f9;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
             color: #333;
-            margin: 20px;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
         }
-        h1, h2 {
-            color: #444;
+        header {
+            background-color: #005f73;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #005f73;
+            border-bottom: 2px solid #94d2bd;
+            padding-bottom: 5px;
         }
         ul {
             list-style-type: none;
@@ -22,33 +45,56 @@
         }
         ul li {
             margin: 8px 0;
+            display: flex;
+            align-items: center;
         }
-        ul li::before {
-            content: "•";
-            color: #555;
-            font-weight: bold;
-            display: inline-block;
-            width: 1em;
-            margin-left: -1em;
+        ul li .emoji {
+            margin-right: 10px;
+            font-size: 1.2em;
         }
-        .emoji {
-            margin-right: 8px;
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #e0f7fa;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #005f73;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>About Me</h1>
-    <p>
-        Born in the historic city of <strong>Bhagalpur, Bihar</strong>, I discovered my passion for technology early on. 
-        This passion led me to pursue a degree in <strong>Computer Engineering</strong> in the vibrant city of <strong>Bangalore</strong>. 
-        With a deep interest in computers and coding, I’ve dedicated myself to building expertise in the tech world.
-    </p>
-    <h2>Hobbies and Interests</h2>
-    <ul>
-        <li><span class="emoji">📚</span><strong>Reading</strong>: Exploring a variety of genres and gaining new perspectives.</li>
-        <li><span class="emoji">🎵</span><strong>Music</strong>: Enjoying melodies that soothe and inspire.</li>
-        <li><span class="emoji">🚗</span><strong>Cars</strong>: Fascinated by automotive design and innovation.</li>
-        <li><span class="emoji">🌍</span><strong>Long Drives</strong>: Finding joy in the journey as much as the destination.</li>
-    </ul>
+    <header>
+        <h1>About Me</h1>
+        <p>A Computer Engineer with a Passion for Technology</p>
+    </header>
+    <main>
+        <section>
+            <p>
+                I was born in the historic city of <strong>Bhagalpur, Bihar</strong>, where I developed a keen interest in technology from a young age. 
+                This passion inspired me to pursue a degree in <strong>Computer Engineering</strong> in the vibrant city of <strong>Bangalore</strong>. 
+                My journey in the tech world has been driven by a love for computers and coding, continually honing my skills and knowledge.
+            </p>
+        </section>
+        <section>
+            <h2>Hobbies and Interests</h2>
+            <ul>
+                <li><span class="emoji">📚</span><strong>Reading</strong>: Exploring a variety of genres and gaining new perspectives.</li>
+                <li><span class="emoji">🎵</span><strong>Music</strong>: Enjoying melodies that soothe and inspire.</li>
+                <li><span class="emoji">🚗</span><strong>Cars</strong>: Fascinated by automotive design and innovation.</li>
+                <li><span class="emoji">🌍</span><strong>Long Drives</strong>: Finding joy in the journey as much as the destination.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Connect with me on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> or visit my <a href="https://github.com" target="_blank">GitHub</a> profile.
+        </p>
+    </footer>
 </body>
 </html>
