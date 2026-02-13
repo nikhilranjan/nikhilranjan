@@ -33,11 +33,17 @@ Skills
 
 Experience
 
+### Senior Technical Writer| Epicor
+
+June 2025 - CURRENT, Bangalore
+
+- Working on Epicor ERP Products, including Cloud Portal, BI Solution Grow, Application Interface, and AI products, curating Installation Guides, How-to Guides, Course Materials, and Release Notes.
+  
 ### Senior Technical Writer| Nutanix R&D
 
-09/10/2024 - CURRENT, Bangalore
+Oct 2024 - Jan 2025, Bangalore
 
-- Working on Getting Started, Configuration, Installation Guides and Knowledge Base articles, Tech-Notes, Whitepapers and Release Notes.
+- Worked on Getting Started, Configuration, Installation Guides and Knowledge Base articles, Tech-Notes, Whitepapers and Release Notes.
 
 
 **Technologies used:** Nutanix Core Products: HCI Cloud Hypervisors Virtual Machines
