@@ -33,9 +33,15 @@ Skills
 
 Experience
 
+### Senior Technical Writer | During the contract; BayOne Inc. | Google
+
+July 2026 - CURRENT, Bangalore
+
+- Working on WearOS Partner Documentation.
+  
 ### Senior Technical Writer| Epicor
 
-June 2025 - CURRENT, Bangalore
+June 2025 - June 2026, Bangalore
 
 - Working on Epicor ERP Products, including Cloud Portal, BI Solution Grow, Application Interface, and AI products, curating Installation Guides, How-to Guides, Course Materials, and Release Notes.
   
